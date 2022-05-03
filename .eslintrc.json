@@ -11,6 +11,14 @@
     "prettier/prettier",
     "plugin:prettier/recommended"
   ],
+  "overrides": [
+    {
+      "files": ["*.js", ".jsx"],
+      "rules": {
+        "@typescript-eslint/...": "off"
+      }
+    }
+  ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaFeatures": {
@@ -40,6 +48,7 @@
       }
     ],
     "no-shadow": "off",
+    "@typescript-eslint/no-var-requires": 0,
     "@typescript-eslint/no-shadow": ["error"],
     "@typescript-eslint/explicit-function-return-type": [
       "error",

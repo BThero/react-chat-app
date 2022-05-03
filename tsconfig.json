@@ -17,5 +17,6 @@
     "jsx": "react-jsx",
     "baseUrl": "./src",
     "rootDirs": ["src"]
-  }
+  },
+  "include": ["src/custom.d.ts"]
 }
